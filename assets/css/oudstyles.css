@@ -1,0 +1,235 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body { padding-bottom: 40px; color: #5a5a5a; }
+
+/* HEADER AND NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {  position: absolute;  top: 0;  right: 0;  left: 0;  z-index: 20; }
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {  padding-right: 0;  padding-left: 0; }
+.navbar-wrapper .navbar {  padding-right: 15px;  padding-left: 15px; }
+.navbar-wrapper .navbar .container {  width: auto; }
+
+
+
+.parallax-bg {  }
+.parallax-bg .col-md-6 { padding-top: 100px; }
+.parallax-bg h2 { font-size: 35px; }
+.parallax-bg p { font-size: 16px; font-weight: 500; padding-top: 10px; padding-bottom: 10px; letter-spacing: .05em; line-height: 23px; }
+
+.signupbtn { padding: 10px 0; }
+.signupbtn a { color: #000; }
+.signupbtn .btn { padding-right: 0px; padding-left: 0px; }
+.signupbtn h4 { font-weight: 300; }
+
+
+/* Main logo header */
+#header-logo { height: 200px; }
+#header-logo .mainlogo { padding: 20px 0;  }
+#header-logo .mainlogo .logo { margin-right: auto; margin-left: auto; max-width: 320px; }
+
+
+#hero { width: 100% }
+#hero img {width: 100%}
+.parallax-bg-hero { height: 650px;background: url( ../imgs/slide-1.jpg );background-repeat: no-repeat;background-attachment: fixed; -webkit-background-size: 100%; background-size: 100%; background-position-y: 200px; }
+
+
+#ourstory { height: 650px; background: url( ../imgs/ourstory-bg.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; }
+#ourstory h2 {  font-weight: 300; letter-spacing: .05em; font-size: 42px;  }
+
+
+#oudessentials { height: 700px; background: url( ../imgs/oudessentials.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; color: #fff; background-color: #000; }
+#oudessentials .col-md-6 { padding-top: 70px; }
+#oudessentials h2 {  font-weight: 300; letter-spacing: .05em; padding-top: 50px; text-shadow: 0px 2px 4px rgba(150, 150, 150, 0.68); }
+#oudessentials .prodname { font-size: 40px; }
+#oudessentials img { padding-bottom: 20px; }
+#oudessentials .signupbtn a {color: #fff;}
+
+
+.sectionhead { background: #4e4c4c; color:#fff; text-align: center; padding-top: 50px; padding-bottom: 50px; }
+.sectionhead h2 {  font-weight: 300; letter-spacing: .05em; font-size: 27px;  }
+.sectionhead .prodname { font-size: 40px; }
+
+
+#quint { padding-bottom: 100px; }
+#quint .col-md-6 { padding-top: 50px; }
+#quint .prodimg { margin-right: auto; margin-left: auto;}
+
+
+#oudbijoux { height: 700px; background: url( ../imgs/oudbijoux.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; color: #fff; }
+#oudbijoux .sectionhead { background: rgba(0,0,0, 0.55); color:#fff; text-align: center; padding-top: 20px; padding-bottom: 20px; }
+#oudbijoux h2 {  font-weight: 300; letter-spacing: .05em; }
+#oudbijoux p { font-size: 19px; letter-spacing: 0.03em; line-height: 28px; }
+#oudbijoux .signupbtn a {color: #fff;}
+
+
+#oudinfusions { padding-top: 20px; padding-bottom: 80px; }
+#oudinfusions h1 { font-size: 40px; font-weight: 300; }
+#oudinfusions h2 { font-size: 30px; font-weight: 200; letter-spacing: 0.03em; }
+#oudinfusions p { font-size: 19px; line-height: 28px; letter-spacing: 0.03em; color: #666666; }
+#oudinfusions .signupbtn a {color: #666666;}
+
+
+#ceo { height: 800px; background: url( ../imgs/ceo.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; color: #fff; background-color: #000; }
+#ceo .logo-title { text-align: center; }
+#ceo .logo-title img { margin-right: auto; margin-left: auto; }
+#ceo h2 { font-weight: 300; letter-spacing: .05em; }
+#ceo .copytxt { margin-top: 99px; }
+#ceo .copytxt p { font-size: 19px; line-height: 30px;}
+#ceo .signupbtn a { color: #fff; }
+
+/* Count Down clock
+-------------------------------------------------- */
+#comingsoon { height: 650px; padding-top: 80px; }
+#comingsoon h1 { padding-bottom: 50px; }
+#comingsoon .signupbtn { text-align: center; }
+#comingsoon .signupbtn h4 { font-weight: 400; font-size: 40px; }
+
+/*Countdown start here*/
+.count-down { margin: 0 0 85px 0; padding: 0; text-align:center; height: 240px; height: auto;}
+.count-down li { margin: 0; padding: 0; list-style: none; font-size: 45px; display: inline-block; min-height: 250px;}
+.count-down li div { margin: 0 !important; padding: 0;}
+.count-down li input { font-size: 20px!important; color: #000000!important; width: 154px!important; height: 98px!important; margin:70px 0 0 -210px !important; font-weight: normal!important;}
+#days-title, #hours-title, #mins-title, #secs-title { display:block; color: #000000; text-transform: uppercase; margin-top: -148px; font-size: 18px; position: relative; z-index:9 !important;}
+
+.modal-body {
+    position: relative;
+    padding: 50px 50px 40px;
+	background: rgba(65,86,80,1);
+	background: -moz-linear-gradient(top, rgba(65,86,80,1) 0%, rgba(177,194,173,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,86,80,1)), color-stop(100%, rgba(177,194,173,1)));
+	background: -webkit-linear-gradient(top, rgba(65,86,80,1) 0%, rgba(177,194,173,1) 100%);
+	background: -o-linear-gradient(top, rgba(65,86,80,1) 0%, rgba(177,194,173,1) 100%);
+	background: -ms-linear-gradient(top, rgba(65,86,80,1) 0%, rgba(177,194,173,1) 100%);
+	background: linear-gradient(to bottom, rgba(65,86,80,1) 0%, rgba(177,194,173,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415650', endColorstr='#b1c2ad', GradientType=0 );
+}
+.modal-title { margin-left: auto; margin-right: auto; max-width: 300px; }
+label { font-weight: 400; color: #fff; letter-spacing: 0.05em; }
+.modal-footer {background-image: url(../imgs/contact-form-footer.jpg); border-top: none; height: 80px; }
+.form-control {
+	color: #bda981;
+    background-color: #353c3a;
+    background-image: none;
+    border: 1px solid #bda981;
+    border-radius: 0;
+}
+
+.btn-submit { margin-right: auto; margin-left: auto; text-align: center; margin-top: 20px; }
+.btn-gold {
+    color: #000;
+    border-color: #2a2b2c;
+	background: #8e7a52; /* Old browsers */
+	background: -moz-linear-gradient(top,  #8e7a52 0%, #ead6ae 17%, #ead6ae 46%, #8e7a52 97%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #8e7a52 0%,#ead6ae 17%,#ead6ae 46%,#8e7a52 97%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #8e7a52 0%,#ead6ae 17%,#ead6ae 46%,#8e7a52 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e7a52', endColorstr='#8e7a52',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 50px;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bda981;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bda981;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bda981;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #bda981;
+}
+
+html { position: relative; min-height: 100%; }
+/* Margin bottom by footer height */
+body { margin-bottom: 60px; }
+/* Set the fixed height of the footer here */ 
+.footer { position: absolute; bottom: 0; width: 100%; height: 60px; background-color: #263018; padding: 20px 0; text-align: center; color: #fff; letter-spacing: .05em; }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel { height: 600px; margin-bottom: 60px; }
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption { z-index: 10; text-align: left;}
+/* Declare heights because of positioning of img element */
+.carousel .item { height: 600px; background-color: #777; }
+.carousel-inner { overflow: visible; }
+.carousel-inner > .item > img { position: absolute; top: 0; left: 0; min-width: 100%; }
+.carousel-control.right { background: none; }
+.carousel-control.left { background: none; }
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 { margin-bottom: 20px; text-align: center; }
+.marketing h2 { font-weight: normal; }
+.marketing .col-lg-4 p { margin-right: 10px; margin-left: 10px; }
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider { margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 320px) { 
+	p { font-size: 12px; }
+	.sectionhead .prodname { font-size: 30px; }
+	#ourstory { height: 650px; background:none; }
+	#oudbijoux { height: 700px; background:rgba(0,0,0, 0.55); }
+
+
+ }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	/* Navbar positioning foo */ 
+	.navbar-wrapper { margin-top: 20px; } 
+	.navbar-wrapper .container { padding-right: 15px; padding-left: 15px; } 
+	.navbar-wrapper .navbar { padding-right: 0; padding-left: 0; }
+	/* The navbar becomes detached from the top, so we round the corners */ 
+	.navbar-wrapper .navbar { border-radius: 4px; }
+	/* Bump up size of carousel content */ 
+	.carousel-caption p { margin-bottom: 20px; font-size: 21px; line-height: 1.4; }
+	.featurette-heading { font-size: 50px; }
+	.sectionhead .prodname { font-size: 40px; }
+	.modal-dialog { width: 800px; }
+
+	#ourstory { height: 650px; background: url( ../imgs/ourstory-bg.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; }
+
+	#oudbijoux { height: 700px; background: url( ../imgs/oudbijoux.jpg );background-repeat: no-repeat;-webkit-background-size: 100%;background-size: 110%;background-attachment: fixed; color: #fff; }
+	#ceo .copytxt p { font-size: 19px; line-height: 30px; }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.featurette-heading { margin-top: 120px; }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
